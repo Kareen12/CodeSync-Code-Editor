@@ -1,0 +1,8 @@
+{
+    "build": {
+      "npm": {
+        "install": "--force"
+      }
+    }
+  }
+  
