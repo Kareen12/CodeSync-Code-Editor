@@ -1,14 +1,9 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "package.json",
-        "use": "@vercel/node"
-      }
-    ],
-    "functions": { },
-    "install": {
-      "npm": "--force"
+    "name": "codesync",
+    "version": "0.1.0",
+    "scripts": {
+      "vercel-build": "npm install --force && npm run build",
+      "build": "react-scripts build"
     }
-  }
-  
+}
+ 
