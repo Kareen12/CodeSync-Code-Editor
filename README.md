@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# CodeSync
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CodeSync is a React-based code editor designed for HTML, CSS, and JavaScript, empowering developers to efficiently write and test their code in real-time. This project leverages the React framework and utilizes the CodeMirror library to provide a seamless coding experience.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **HTML, CSS, JavaScript Support:** CodeSync offers support for HTML, CSS, and JavaScript, enabling developers to write and edit code in these languages within the editor.
+  
+- **Real-time Preview:** Experience real-time preview of your code changes directly within the editor, allowing you to visualize the output as you type.
 
-### `npm start`
+- **Syntax Highlighting:** Take advantage of syntax highlighting provided by CodeMirror, making it easier to read and understand your code.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React:** The project is built using React, a popular JavaScript library for building user interfaces.
 
-### `npm test`
+- **CodeMirror:** CodeMirror is utilized to provide the code editor functionality, offering features such as syntax highlighting, code folding, and more.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
 
-### `npm run build`
+![codesync_ss1](https://github.com/Kareen12/CodeSync-Code-Editor/assets/105985059/2a1da427-70d0-4158-a44a-697c7b1c77ae)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![codesync_ss2](https://github.com/Kareen12/CodeSync-Code-Editor/assets/105985059/6dfe422d-29cc-41b9-a017-f7b04618fc69)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Mobile View:**
 
-### `npm run eject`
+![codesync_ss3](https://github.com/Kareen12/CodeSync-Code-Editor/assets/105985059/a0eaf231-a404-4ae0-8a29-fedad2f2e69e)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![codesync_ss4](https://github.com/Kareen12/CodeSync-Code-Editor/assets/105985059/2391e29b-4684-4a29-afd6-7aae4c01aef2)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To run the project locally, follow these steps:
 
-## Learn More
+1. Clone the repository:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+git clone https://github.com/your-username/codesync.git
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Navigate to the project directory:
 
-### Code Splitting
+```
+cd codesync
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. Install dependencies:
 
-### Analyzing the Bundle Size
+```
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+4. Start the development server:
 
-### Making a Progressive Web App
+```
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+5. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the application.
 
-### Advanced Configuration
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Contributions are welcome! If you'd like to contribute to CodeSync, please follow these guidelines:
 
-### Deployment
+1. Fork the repository and create a new branch.
+2. Make your changes and ensure that the code passes any existing tests.
+3. Test your changes thoroughly.
+4. Commit your changes and create a pull request with a clear description of your changes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contact
 
-### `npm run build` fails to minify
+If you have any questions or feedback, feel free to contact me at [kareenujjainiya222@gmail.com](mailto:kareenujjainiya222@gmail.com).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
